@@ -24,13 +24,16 @@ public class Main {
         int option;
 
         do {
-            System.out.println("\n--- Menu de Interação ---");
-            System.out.println("1. Buscar uma reserva");
-            System.out.println("2. Listar reservas por voo");
-            System.out.println("3. Remover uma reserva");
-            System.out.println("4. Inserir uma nova reserva");
-            System.out.println("5. Imprimir a árvore em pré-ordem");
-            System.out.println("6. Sair");
+            System.out.println("\n" + "*".repeat(40));
+            System.out.println("*-----------------Menu-----------------*");
+            System.out.println("*".repeat(40));
+            System.out.println("[1] - Buscar uma reserva");
+            System.out.println("[2] - Listar reservas por voo");
+            System.out.println("[3] - Remover uma reserva");
+            System.out.println("[4] - Inserir uma nova reserva");
+            System.out.println("[5] - Imprimir a árvore em pré-ordem");
+            System.out.println("[6] - Sair");
+            System.out.println("*".repeat(40));
             System.out.print("Escolha uma opção: ");
 
             option = scanner.nextInt();
