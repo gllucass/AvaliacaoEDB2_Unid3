@@ -28,11 +28,11 @@ public class Reserva {
     }
 
     public static String getTableHeader() {
-        return String.format("| %-6s | %-15s | %-6s | %-20s |", "ID", "Passageiro", "Voo", "Horário");
+        return String.format("| %-6s | %-20s | %-6s | %-20s |", "ID", "Passageiro", "Voo", "Horário");
     }
 
     @Override
     public String toString() {
-        return String.format("| %-6d | %-15s | %-6s | %-20s |", id, nome, voo, horario);
+        return String.format("| %-6d | %-20s | %-6s | %-20s |", id, nome, voo, horario);
     }
 }

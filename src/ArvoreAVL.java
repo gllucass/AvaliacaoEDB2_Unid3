@@ -165,7 +165,7 @@ public class ArvoreAVL {
 
     public void listarReservasPorVoo(String voo) {
         System.out.println(Reserva.getTableHeader());
-        System.out.println("-------------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------------");
         listarReservasPorVoo(raiz, voo);
     }
 
@@ -181,7 +181,7 @@ public class ArvoreAVL {
     // Método para imprimir a árvore em pré-ordem
     public void imprimirEmPreOrdem() {
         System.out.println(Reserva.getTableHeader());
-        System.out.println("-------------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------------");
         imprimirPreOrdem(raiz);
     }
 
